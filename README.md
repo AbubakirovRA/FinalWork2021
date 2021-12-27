@@ -1,5 +1,5 @@
 # FinalWork2021
-## Final work after the first quarter of training at GeekBrines
+## Final work after the first quarter of training at GeekBrains
 
 ### Данный репозиторий создан для демонстрации полученных навыков по итогу обучения в течение первой четверти обучения на платформе GeekBrains по курсу "Разработчик".
 
