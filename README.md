@@ -1,4 +1,4 @@
-#  _**<span style="color:blue">FinalWork2021</span>**_
+#  _**<span style="color:blue">Final Work 2021</span>**_
 ## <span style="color:yellow">Final work after the first quarter of training at GeekBrains</span>
 
 ### Данный репозиторий создан для демонстрации полученных навыков по итогу обучения в течение первой четверти обучения на платформе GeekBrains по курсу "Разработчик".
