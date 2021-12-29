@@ -1,11 +1,11 @@
 <mxfile host="65bd71144e">
     <diagram id="EK19xXZXsurz1Jw2k540" name="Страница 1">
-        <mxGraphModel dx="837" dy="375" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1196" dy="697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
                 <mxCell id="2" value="Start" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="318.75" y="70" width="106" height="30" as="geometry"/>
+                    <mxGeometry x="334.38" y="70" width="74.75" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="3" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -16,12 +16,6 @@
                 <mxCell id="5" value="if (arg == 0)&amp;nbsp;&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="318" y="221" width="107.5" height="59" as="geometry"/>
                 </mxCell>
-                <mxCell id="6" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="7" edge="1">
-                    <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="372.25" y="339" as="sourcePoint"/>
-                        <mxPoint x="373" y="379" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
                 <mxCell id="7" value="for (int i=0; i &amp;lt; arg; i++)" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
                     <mxGeometry x="291.88" y="389" width="162.25" height="60" as="geometry"/>
                 </mxCell>
@@ -31,15 +25,12 @@
                         <mxPoint x="372.58" y="499" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="9" value="&lt;span&gt;Console.WriteLine();&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="510" y="499" width="121.5" height="40" as="geometry"/>
-                </mxCell>
                 <mxCell id="10" value="End" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="313" y="589" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="333.25" y="589" width="77" height="31" as="geometry"/>
                 </mxCell>
-                <mxCell id="11" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="9" edge="1">
+                <mxCell id="11" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="370" y="549" as="sourcePoint"/>
+                        <mxPoint x="570.75" y="539" as="sourcePoint"/>
                         <mxPoint x="370" y="589" as="targetPoint"/>
                         <Array as="points">
                             <mxPoint x="571" y="559"/>
@@ -47,12 +38,9 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="12" value="&lt;span&gt;Console.Write(Array[i]);&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="307.01" y="499" width="132" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="13" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="12" edge="1">
+                <mxCell id="13" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="650" y="529" as="sourcePoint"/>
+                        <mxPoint x="307.01" y="519" as="sourcePoint"/>
                         <mxPoint x="373" y="359" as="targetPoint"/>
                         <Array as="points">
                             <mxPoint x="230" y="519"/>
@@ -60,10 +48,10 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="14" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="7" target="9" edge="1">
+                <mxCell id="14" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="7" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="480" y="419" as="sourcePoint"/>
-                        <mxPoint x="700" y="479" as="targetPoint"/>
+                        <mxPoint x="570.75" y="499" as="targetPoint"/>
                         <Array as="points">
                             <mxPoint x="571" y="419"/>
                         </Array>
@@ -89,7 +77,7 @@
                         <mxPoint x="9" y="-2" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="20" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="5">
+                <mxCell id="20" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5" target="7">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="432" y="340" as="sourcePoint"/>
                         <mxPoint x="372" y="340" as="targetPoint"/>
@@ -103,7 +91,7 @@
                 <mxCell id="22" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="17">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="432" y="340" as="sourcePoint"/>
-                        <mxPoint x="372" y="340" as="targetPoint"/>
+                        <mxPoint x="370" y="340" as="targetPoint"/>
                         <Array as="points">
                             <mxPoint x="527" y="340"/>
                         </Array>
@@ -111,6 +99,12 @@
                 </mxCell>
                 <mxCell id="23" value="&lt;span&gt;incoming data&lt;/span&gt;&lt;br&gt;&lt;span&gt;int[] Array, int arg&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
                     <mxGeometry x="299.51" y="140" width="147" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="&lt;span&gt;Console.Write(Array[i]);&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="287.76" y="499" width="170.49" height="34" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="&lt;span&gt;Console.WriteLine();&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="490" y="498" width="160" height="36" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
