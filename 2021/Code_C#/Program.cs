@@ -9,7 +9,7 @@
     return Array;
 }
 
-(int[], int) EvenIntegers(int[] Array)
+(int[], int) GetEvenIntegers(int[] Array)
 {
     int[] mass = new int[Array.Length];
     int j = 0;
@@ -36,7 +36,7 @@ void PrintArray(int[] Array, int arg)
 
 
 int[] Array = GetArray();
-(int[] Even, int evenNum) = EvenIntegers(Array);
+(int[] Even, int evenNum) = GetEvenIntegers(Array);
 
 Console.Clear();
 PrintArray(Array, 0);
