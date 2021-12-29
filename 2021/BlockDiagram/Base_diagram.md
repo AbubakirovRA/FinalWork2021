@@ -1,1 +1,0 @@
-![Abubakirov_RA](Base_diagram.png)
