@@ -21,18 +21,20 @@ int[] GetArray()// метод создания и заполнения масс�
             j++;
         }
     }
-    //Array.Resize(ref mass, j); возможен вариант изменения размера массива, в соответствии с количеством значимых элементов в нем;
+    //System.Array.Resize(ref mass, j); //возможен вариант изменения размера массива, в соответствии с количеством значимых элементов в нем;
     return (mass, j);
 }
 
 void PrintArray(int[] Array, int arg)//метод печати массивов в консоль
 {
+    Console.Write("[");
     if (arg == 0) arg = Array.Length;
     for (int i=0; i<arg;i++)
         {
-            Console.Write($"{Array[i]} ");
+            if (i==arg-1) Console.Write($"{Array[i]}");
+            else Console.Write($"{Array[i]}, ");
         }
-    Console.WriteLine();       
+    Console.Write("]");     
 }
 
 // Т Е Л О    П Р О Г Р А М М Ы
@@ -41,4 +43,5 @@ int[] Array = GetArray();
 
 Console.Clear();
 PrintArray(Array, 0);
+Console.Write(" -> ");
 PrintArray(Even, evenNum);
