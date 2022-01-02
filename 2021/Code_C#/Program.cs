@@ -21,7 +21,7 @@ int[] GetEvenIntegers(int[] Array)//метод нахождения четных
             j++;
         }
     }
-    System.Array.Resize(ref mass, j); //возможен вариант изменения размера массива, в соответствии с количеством значимых элементов в нем;
+    System.Array.Resize(ref mass, j);
     return mass;
 }
 
