@@ -21,8 +21,8 @@ int[] GetEvenIntegers(int[] Array)//метод нахождения четных
             j++;
         }
     }
-    System.Array.Resize(ref mass, j);
-    return mass;
+    System.Array.Resize(ref mass, j); // здесь пришлось компилятору указать явно пространство имен System, для класса Array,
+    return mass;                      //  т.к. в коде методов и тела программы используется идентификатор Array, совпадающий с именем класса Array из пространства имен System.
 }
 
 void PrintArray(int[] Array)//метод печати массивов в консоль
