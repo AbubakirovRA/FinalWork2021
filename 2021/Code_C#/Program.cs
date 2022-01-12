@@ -9,7 +9,7 @@ int[] GetArray()// метод создания и заполнения масс�
     return Array;
 }
 
-(int[], int) GetEvenIntegers(int[] Array)//метод нахождения четных чисел и создания нового массива из них
+int[] GetEvenIntegers(int[] Array)//метод нахождения четных чисел и создания нового массива из них
 {
     int[] mass = new int[Array.Length];
     int j = 0;
@@ -21,24 +21,26 @@ int[] GetArray()// метод создания и заполнения масс�
             j++;
         }
     }
-    Array.Resize(ref mass, j); //возможен вариант изменения размера массива, в соответствии с количеством значимых элементов в нем;
-    return (mass, j);
+    System.Array.Resize(ref mass, j); // здесь пришлось компилятору указать явно пространство имен System, для класса Array,
+    return mass;                      //  т.к. в коде методов и тела программы используется идентификатор Array, совпадающий с именем класса Array из пространства имен System.
 }
 
-void PrintArray(int[] Array, int arg)//метод печати массивов в консоль
+void PrintArray(int[] Array)//метод печати массивов в консоль
 {
-    if (arg == 0) arg = Array.Length;
-    for (int i=0; i<arg;i++)
-        {
-            Console.Write($"{Array[i]} ");
-        }
-    Console.WriteLine();       
+    Console.Write("[");
+    for (int i = 0; i < Array.Length; i++)
+    {
+        if (i == Array.Length - 1) Console.Write(Array[i]);
+        else Console.Write($"{Array[i]}, ");
+    }
+    Console.Write("]");
 }
 
 // Т Е Л О    П Р О Г Р А М М Ы
 int[] Array = GetArray();
-(int[] Even, int evenNum) = GetEvenIntegers(Array);
+int[] Even = GetEvenIntegers(Array);
 
 Console.Clear();
-PrintArray(Array, 0);
-PrintArray(Even, evenNum);
+PrintArray(Array);
+Console.Write(" -> ");
+PrintArray(Even);
